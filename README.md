@@ -102,6 +102,8 @@ lousas?
 
 1. Faça um programa para calcular a área de uma circunferência, considerando a fórmula AREA = &pi; &times; RAIO<sup>2</sup>. Utilize as variáveis AREA e RAIO, a constante &pi; (pi = 3,14159) e os operadores aritméticos de multiplicação.
 
+1. Faça um programa que peça dois números, base e expoente, calcule e mostre o primeiro número elevado ao segundo número. Utilize a função de potência da linguagem.
+
 1. Faça um programa que:
     1. Leia o nome;
     1. Leia o sobrenome;
@@ -252,6 +254,10 @@ com D.
 ## Estrutura de repetição
 1. Faça um programa que calcule a soma dos números inteiros de 1 a 100.
 
+1. Escreva um programa que pergunte ao usuário um número e após, escreva na tela a soma total de 1 até o número lido. Exemplo: 5: 1+2+3+4+5 = 15
+
+1. Faça um programa que peça dois números, base e expoente, calcule e mostre o primeiro número elevado ao segundo número. **Não utilize a função de potência da linguagem**.
+
 1. Construa um programa que exiba a tabuada de 1 até N, onde N é informado pelo usuário. ex: Até a tabuada de 3, irá imprimir as tabuadas de 1, 2 e 3.
 
 1. Faça um programa para calcular e escrever a soma dos cubos dos números pares compreendidos entre A e B (B &gt; A). A e B são lidos pelo teclado.
@@ -347,7 +353,7 @@ com D.
 
 1. Faça um programa para ler dois vetores V1 e V2 de 15 números cada. Calcular e escrever a quantidade de vezes que V1 e V2 possuem os mesmos números e nas mesmas posições.
 
-1. Faça um programa que defina dois vetores A = [1, 3, 5, 9, 12] e B = [1, 2, 3, 4, 7, 25] e faça as seguintes operações de conjuntos:
+1. Faça um programa que defina dois vetores A = [2, 4, 7, 13, 14, 15, 16] e B = [1, 6, 7, 11, 13, 16, 18] e faça as seguintes operações de conjuntos:
     - A &bigcup; B: União (todos os valores de ambos os vetores)
     - A &bigcap; B: Intersecção (apenas valores que existam em ambos)
     - A &minus; B: Diferença (apenas valores que não apareçam simultaneamente em ambos conjuntos)
@@ -356,7 +362,51 @@ com D.
 
 1. Numa eleição existem n candidatos identificados pelos números 1, 2, 3 ... n. Faça um programa que compute o resultado de uma eleição. Inicialmente o programa deverá pedir o número total de candidatos e de votantes. Em seguida, deverá pedir para cada votante votar (informando o numero do candidato) e a o final mostrar o número de votos de cada candidato. Utilize um vetor para armazenar o total de votos de cada candidato.
 
+1. Ler 100 números de matriculas de alunos e armazenar em um vetor. Esses números são distintos, ou seja, não existem números de matriculas iguais. Caso o usuário informa um número de matrículo que já existe, o programa deverá emitir um alerta.
+
+1. Faça um programa que leia um vetor com N elementos formado por valores do tipo inteiro. Crie então dois novos vetores, um com os valores pares e outro com os valores ímpares do vetor original.
+
+1. Faça um programa que:
+    1. Leia um vetor A com N elementos já ordenados e um vetor B com M elementos também já ordenados.
+    1. Intercale os dois vetores A e B, formando um vetor C, sendo que ao final do processo de intercalação, o vetor C continue ordenado. Nenhum outro processo de ordenação poderá ser utilizado além da intercalação dos vetores A e B.
+    1. Caso um vetor (A ou B) termine antes do outro, o vetor C deverá ser preenchido com os elementos do vetor que ainda possui informações.
+
 ## Matrizes
+1. Faça um programa para ler e imprimir uma matriz 2 &times; 4 de números inteiros.
+
+1. Dada a seguinte matriz, calcule:
+    1. A soma dos elementos de primeira coluna;
+    1. O produto dos elementos da primeira linha;
+    1. A soma de todos os elementos;
+    1. O produto da diagonal principal.
+
+    <table>
+        <tr>
+            <td style="text-align: right">1</td>
+            <td style="text-align: right">2</td>
+            <td style="text-align: right">3</td>
+            <td style="text-align: right">4</td>
+        </tr>
+        <tr>
+            <td style="text-align: right">5</td>
+            <td style="text-align: right">6</td>
+            <td style="text-align: right">7</td>
+            <td style="text-align: right">8</td>
+        </tr>
+        <tr>
+            <td style="text-align: right">9</td>
+            <td style="text-align: right">10</td>
+            <td style="text-align: right">11</td>
+            <td style="text-align: right">12</td>
+        </tr>
+        <tr>
+            <td style="text-align: right">13</td>
+            <td style="text-align: right">14</td>
+            <td style="text-align: right">15</td>
+            <td style="text-align: right">16</td>
+        </tr>
+    </table>
+
 1. Dada as matrizes A e B determine A + B. 
     <table>
         <tr>
@@ -364,16 +414,16 @@ com D.
                 <table>
                     <tr>
                         <th rowspan="2">A =</th>
-                        <td>-10</td>
-                        <td>1</td>
-                        <td>4</td>
-                        <td>6</td>
+                        <td style="text-align: right">-10</td>
+                        <td style="text-align: right">1</td>
+                        <td style="text-align: right">4</td>
+                        <td style="text-align: right">6</td>
                     </tr>
                     <tr>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>2</td>
-                        <td>8</td>
+                        <td style="text-align: right">2</td>
+                        <td style="text-align: right">3</td>
+                        <td style="text-align: right">2</td>
+                        <td style="text-align: right">8</td>
                     </tr>
                 </table>
             </td>
@@ -401,12 +451,12 @@ com D.
     <table>
         <tr>
             <th rowspan="2">A =</th>
-            <td>2</td>
-            <td>-3</td>
+            <td style="text-align: right">2</td>
+            <td style="text-align: right">-3</td>
         </tr>
         <tr>
-            <td>-1</td>
-            <td>4</td>
+            <td style="text-align: right">-1</td>
+            <td style="text-align: right">4</td>
         </tr>
     </table>
 
@@ -417,16 +467,16 @@ com D.
                 <table>
                     <tr>
                         <th rowspan="3">A =</th>
-                        <td>-7</td>
-                        <td>8</td>
+                        <td style="text-align: right">-7</td>
+                        <td style="text-align: right">8</td>
                     </tr>
                     <tr>
-                        <td>4</td>
-                        <td>9</td>
+                        <td style="text-align: right">4</td>
+                        <td style="text-align: right">9</td>
                     </tr>
                     <tr>
-                        <td>2</td>
-                        <td>1</td>
+                        <td style="text-align: right">2</td>
+                        <td style="text-align: right">1</td>
                     </tr>
                 </table>
             </td>
@@ -434,14 +484,14 @@ com D.
                 <table>
                     <tr>
                         <th rowspan="2">A<sup>t</sup> = </th>
-                        <td>-7</td>
-                        <td>4</td>
-                        <td>2</td>
+                        <td style="text-align: right">-7</td>
+                        <td style="text-align: right">4</td>
+                        <td style="text-align: right">2</td>
                     </tr>
                     <tr>
-                        <td>8</td>
-                        <td>9</td>
-                        <td>1</td>
+                        <td style="text-align: right">8</td>
+                        <td style="text-align: right">9</td>
+                        <td style="text-align: right">1</td>
                     </tr>
                 </table>
             </td>
