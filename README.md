@@ -501,6 +501,16 @@ com D.
 ## Funções
 1. Crie uma função que receba duas palavras e retorne _True_ caso a primeira palavra seja um prefixo da segunda.
 
+1. Crie uma função que necessite de três argumentos, e que forneça a soma desses três argumentos.
+
+1. Faça um programa com duas funções, uma que recebe uma temperatura em Fahrenheit e retorna em Celcius e outra que faz o inverso. Lembrando que as fórmulas são &#8451; = (&#8457; - 32) &divide; 1,8 e &#8457; = &#8451; &times; 1,8 + 32.
+
+1. Crie uma função que receba como parâmetro um inteiro positivo ano e devolve verdadeiro ou falso se ano for bissexto ou não. Anos bissextos ocorrem a cada quatro anos exceto anos múltiplos de 100 que não são múltiplos de 400.
+
+1. Crie uma função que receba o comprimento de cada um dos três lados de um triângulo e retorne se esse triângulo é isósceles (dois lados iguais e um diferente), escaleno (todos os lados diferentes), equilátero (todos os lados são iguais) ou se não é um triangulo (algum lado é maior que a soma dos outros dois lados).
+
+1. Número primo é aquele que só é divisível por ele mesmo e pelo número 1. Crie uma função que retorne verdadeiro ou falso se o número passado é primo ou não.
+
 ### Funções recursivas
 1. Crie uma função recursiva que receba um número inteiro positivo N e calcule o somatório dos números de 1 a N.
 
@@ -512,6 +522,8 @@ com D.
     - caso contrário, mdc(x, y) é mdc (y, x mod y), onde mod é o operador módulo (resto).
 
 1. Faça uma função recursiva que calcule e retorne o N-ésimo termo da sequência Fibonacci. Alguns números desta sequência são: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89...
+
+1. Faça uma função recursiva que retorne a inversão de uma String passada como parâmetro. Ex: teste &rarr; etset
 
 ## Agradecimentos
 Segue alguns agradecimentos aos professores e eventos que disponibilizaram uma lista de exercícios na internet facilitando a criação desta lista:
