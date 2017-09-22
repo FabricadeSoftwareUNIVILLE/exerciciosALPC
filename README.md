@@ -382,28 +382,28 @@ com D.
 
     <table>
         <tr>
-            <td style="text-align: right">1</td>
-            <td style="text-align: right">2</td>
-            <td style="text-align: right">3</td>
-            <td style="text-align: right">4</td>
+            <td align="right">1</td>
+            <td align="right">2</td>
+            <td align="right">3</td>
+            <td align="right">4</td>
         </tr>
         <tr>
-            <td style="text-align: right">5</td>
-            <td style="text-align: right">6</td>
-            <td style="text-align: right">7</td>
-            <td style="text-align: right">8</td>
+            <td align="right">5</td>
+            <td align="right">6</td>
+            <td align="right">7</td>
+            <td align="right">8</td>
         </tr>
         <tr>
-            <td style="text-align: right">9</td>
-            <td style="text-align: right">10</td>
-            <td style="text-align: right">11</td>
-            <td style="text-align: right">12</td>
+            <td align="right">9</td>
+            <td align="right">10</td>
+            <td align="right">11</td>
+            <td align="right">12</td>
         </tr>
         <tr>
-            <td style="text-align: right">13</td>
-            <td style="text-align: right">14</td>
-            <td style="text-align: right">15</td>
-            <td style="text-align: right">16</td>
+            <td align="right">13</td>
+            <td align="right">14</td>
+            <td align="right">15</td>
+            <td align="right">16</td>
         </tr>
     </table>
 
@@ -414,16 +414,16 @@ com D.
                 <table>
                     <tr>
                         <th rowspan="2">A =</th>
-                        <td style="text-align: right">-10</td>
-                        <td style="text-align: right">1</td>
-                        <td style="text-align: right">4</td>
-                        <td style="text-align: right">6</td>
+                        <td align="right">-10</td>
+                        <td align="right">1</td>
+                        <td align="right">4</td>
+                        <td align="right">6</td>
                     </tr>
                     <tr>
-                        <td style="text-align: right">2</td>
-                        <td style="text-align: right">3</td>
-                        <td style="text-align: right">2</td>
-                        <td style="text-align: right">8</td>
+                        <td align="right">2</td>
+                        <td align="right">3</td>
+                        <td align="right">2</td>
+                        <td align="right">8</td>
                     </tr>
                 </table>
             </td>
@@ -431,16 +431,16 @@ com D.
                 <table>
                     <tr>
                         <th rowspan="2">B =</th>
-                        <td>1</td>
-                        <td>8</td>
-                        <td>4</td>
-                        <td>-1</td>
+                        <td align="right">1</td>
+                        <td align="right">8</td>
+                        <td align="right">4</td>
+                        <td align="right">-1</td>
                     </tr>
                     <tr>
-                        <td>0</td>
-                        <td>6</td>
-                        <td>3</td>
-                        <td>-3</td>
+                        <td align="right">0</td>
+                        <td align="right">6</td>
+                        <td align="right">3</td>
+                        <td align="right">-3</td>
                     </tr>
                 </table>
             </td>
@@ -451,12 +451,12 @@ com D.
     <table>
         <tr>
             <th rowspan="2">A =</th>
-            <td style="text-align: right">2</td>
-            <td style="text-align: right">-3</td>
+            <td align="right">2</td>
+            <td align="right">-3</td>
         </tr>
         <tr>
-            <td style="text-align: right">-1</td>
-            <td style="text-align: right">4</td>
+            <td align="right">-1</td>
+            <td align="right">4</td>
         </tr>
     </table>
 
@@ -467,16 +467,16 @@ com D.
                 <table>
                     <tr>
                         <th rowspan="3">A =</th>
-                        <td style="text-align: right">-7</td>
-                        <td style="text-align: right">8</td>
+                        <td align="right">-7</td>
+                        <td align="right">8</td>
                     </tr>
                     <tr>
-                        <td style="text-align: right">4</td>
-                        <td style="text-align: right">9</td>
+                        <td align="right">4</td>
+                        <td align="right">9</td>
                     </tr>
                     <tr>
-                        <td style="text-align: right">2</td>
-                        <td style="text-align: right">1</td>
+                        <td align="right">2</td>
+                        <td align="right">1</td>
                     </tr>
                 </table>
             </td>
@@ -484,14 +484,14 @@ com D.
                 <table>
                     <tr>
                         <th rowspan="2">A<sup>t</sup> = </th>
-                        <td style="text-align: right">-7</td>
-                        <td style="text-align: right">4</td>
-                        <td style="text-align: right">2</td>
+                        <td align="right">-7</td>
+                        <td align="right">4</td>
+                        <td align="right">2</td>
                     </tr>
                     <tr>
-                        <td style="text-align: right">8</td>
-                        <td style="text-align: right">9</td>
-                        <td style="text-align: right">1</td>
+                        <td align="right">8</td>
+                        <td align="right">9</td>
+                        <td align="right">1</td>
                     </tr>
                 </table>
             </td>
