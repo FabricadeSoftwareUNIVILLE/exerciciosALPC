@@ -254,7 +254,7 @@ com D.
 ## Estrutura de repetição
 1. Faça um programa que calcule a soma dos números inteiros de 1 a 100.
 
-1. Escreva um programa que pergunte ao usuário um número e após, escreva na tela a soma total de 1 até o número lido. Exemplo: 5: 1+2+3+4+5 = 15
+1. Escreva um programa que pergunte ao usuário um número e após, escreva na tela a soma total de 1 até o número lido. Exemplo: 5: 1 + 2 + 3 + 4 + 5 = 15
 
 1. Faça um programa que peça dois números, base e expoente, calcule e mostre o primeiro número elevado ao segundo número. **Não utilize a função de potência da linguagem**.
 
