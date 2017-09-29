@@ -485,7 +485,7 @@ com D.
                     </tr>
                 </table>
             </td>
-            <td>
+            <td valign="top">
                 <table>
                     <tr>
                         <th rowspan="2">A<sup>t</sup> = </th>
@@ -502,6 +502,93 @@ com D.
             </td>
         </tr>
     </table>
+
+1. O tempo que um determinado avião dispensa para percorrer o trecho entre duas localidades distintas está disponível através da seguinte matriz:
+    <table>
+        <tr>
+            <th>&nbsp;</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+            <th>6</th>
+            <th>7</th>
+        </tr>
+        <tr>
+            <th>1</th>
+            <td align="right">&nbsp;</td>
+            <td align="right">2</td>
+            <td align="right">11</td>
+            <td align="right">6</td>
+            <td align="right">15</td>
+            <td align="right">11</td>
+            <td align="right">1</td>
+        </tr>
+        <tr>
+            <th>2</th>
+            <td align="right">2</td>
+            <td align="right">&nbsp;</td>
+            <td align="right">7</td>
+            <td align="right">12</td>
+            <td align="right">4</td>
+            <td align="right">2</td>
+            <td align="right">15</td>
+        </tr>
+        <tr>
+            <th>3</th>
+            <td align="right">11</td>
+            <td align="right">7</td>
+            <td align="right">&nbsp;</td>
+            <td align="right">11</td>
+            <td align="right">8</td>
+            <td align="right">3</td>
+            <td align="right">13</td>
+        </tr>
+        <tr>
+            <th>4</th>
+            <td align="right">6</td>
+            <td align="right">12</td>
+            <td align="right">11</td>
+            <td align="right">&nbsp;</td>
+            <td align="right">10</td>
+            <td align="right">2</td>
+            <td align="right">1</td>
+        </tr>
+        <tr>
+            <th>5</th>
+            <td align="right">15</td>
+            <td align="right">4</td>
+            <td align="right">8</td>
+            <td align="right">10</td>
+            <td align="right">&nbsp;</td>
+            <td align="right">5</td>
+            <td align="right">13</td>
+        </tr>
+        <tr>
+            <th>6</th>
+            <td align="right">11</td>
+            <td align="right">2</td>
+            <td align="right">3</td>
+            <td align="right">2</td>
+            <td align="right">5</td>
+            <td align="right">&nbsp;</td>
+            <td align="right">14</td>
+        </tr>
+        <tr>
+            <th>7</th>
+            <td align="right">1</td>
+            <td align="right">15</td>
+            <td align="right">13</td>
+            <td align="right">1</td>
+            <td align="right">13</td>
+            <td align="right">14</td>
+            <td align="right">&nbsp;</td>
+        </tr>
+    </table>
+
+    1. Faça um programa que leia a matriz anterior e informe ao usuário o tempo necessário para percorrer duas cidades por ele fornecidas;
+    1. Faça um programa que permita ao usuário informa várias cidades e as armazene no vetor de rota até que ele informe 0 (zero), após isto imprima o tempo total para cumprir todo o trajeto fornecido passando por todas as cidades.
 
 ## Funções
 1. Crie uma função que receba duas palavras e retorne _True_ caso a primeira palavra seja um prefixo da segunda.
