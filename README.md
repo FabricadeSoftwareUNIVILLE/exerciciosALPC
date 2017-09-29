@@ -371,6 +371,11 @@ com D.
     1. Intercale os dois vetores A e B, formando um vetor C, sendo que ao final do processo de intercalação, o vetor C continue ordenado. Nenhum outro processo de ordenação poderá ser utilizado além da intercalação dos vetores A e B.
     1. Caso um vetor (A ou B) termine antes do outro, o vetor C deverá ser preenchido com os elementos do vetor que ainda possui informações.
 
+1. Uma escola de samba recebeu como pontos pela alegoria os seguintes 5 valores inclusos no vetor Notas. Lembrando que a nota mais alta e a nota mais baixa são descartadas. Faça um programa que calcule a média final do quesito.
+    ```
+    Notas = [9.9, 9.7, 9.8, 10, 10]
+    ```
+
 ## Matrizes
 1. Faça um programa para ler e imprimir uma matriz 2 &times; 4 de números inteiros.
 
