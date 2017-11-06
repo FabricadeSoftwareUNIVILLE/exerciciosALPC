@@ -503,6 +503,82 @@ com D.
         </tr>
     </table>
 
+1. Dada a seguinte matriz 3x3:
+    <table>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+    </table>
+
+    Faça um programa que:
+
+    1. Apresente a matriz rotacionada em 90&deg;:
+        <table>
+            <tr>
+                <td>7</td>
+                <td>4</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>5</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>6</td>
+                <td>3</td>
+            </tr>
+        </table>
+    1. Apresente a matriz rotacionada em 180&deg;:
+        <table>
+            <tr>
+                <td>9</td>
+                <td>8</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>5</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>2</td>
+                <td>1</td>
+            </tr>
+        </table>
+    1. Apresente a matriz rotacionada em 270&deg;:
+        <table>
+            <tr>
+                <td>3</td>
+                <td>6</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>5</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>4</td>
+                <td>7</td>
+            </tr>
+        </table>
+
 1. O tempo que um determinado avião dispensa para percorrer o trecho entre duas localidades distintas está disponível através da seguinte matriz:
     <table>
         <tr>
@@ -589,6 +665,80 @@ com D.
 
     1. Faça um programa que leia a matriz anterior e informe ao usuário o tempo necessário para percorrer duas cidades por ele fornecidas;
     1. Faça um programa que permita ao usuário informa várias cidades e as armazene no vetor de rota até que ele informe 0 (zero), após isto imprima o tempo total para cumprir todo o trajeto fornecido passando por todas as cidades.
+
+1. Implemente um programa que exiba um triângulo de Pascal (Tartaglia) de ordem n, sendo n informado pelo usuário. Para tal, considere uma matriz quadrada de ordem n, o triângulo de Pascal segue a seguinte regra de formação:
+    1. todos os elementos da primeira coluna da matriz são iguais a 1;
+    1. todos os elementos da diagonal principal da matriz também são iguais a 1;
+    1. para os demais elementos são obtido pela soma do elemento da mesma coluna na linha de cima com o seu vizinho esquerdo;
+    1. os elementos acima da diagonal principal não são exibidos.
+
+    ex: Triângulo de Pascal de ordem 7:
+
+    <table>
+        <tr>
+            <td align="right">&nbsp;1</td>
+            <td align="right">&nbsp;&nbsp;</td>
+            <td align="right">&nbsp;&nbsp;</td>
+            <td align="right">&nbsp;&nbsp;</td>
+            <td align="right">&nbsp;&nbsp;</td>
+            <td align="right">&nbsp;&nbsp;</td>
+            <td align="right">&nbsp;&nbsp;</td>
+        </tr>
+        <tr>
+            <td align="right">&nbsp;1</td>
+            <td align="right">&nbsp;1</td>
+            <td align="right">&nbsp;&nbsp;</td>
+            <td align="right">&nbsp;&nbsp;</td>
+            <td align="right">&nbsp;&nbsp;</td>
+            <td align="right">&nbsp;&nbsp;</td>
+            <td align="right">&nbsp;&nbsp;</td>
+        </tr>
+        <tr>
+            <td align="right">&nbsp;1</td>
+            <td align="right">&nbsp;2</td>
+            <td align="right">&nbsp;1</td>
+            <td align="right">&nbsp;&nbsp;</td>
+            <td align="right">&nbsp;&nbsp;</td>
+            <td align="right">&nbsp;&nbsp;</td>
+            <td align="right">&nbsp;&nbsp;</td>
+        </tr>
+        <tr>
+            <td align="right">&nbsp;1</td>
+            <td align="right">&nbsp;3</td>
+            <td align="right">&nbsp;3</td>
+            <td align="right">&nbsp;1</td>
+            <td align="right">&nbsp;&nbsp;</td>
+            <td align="right">&nbsp;&nbsp;</td>
+            <td align="right">&nbsp;&nbsp;</td>
+        </tr>
+        <tr>
+            <td align="right">&nbsp;1</td>
+            <td align="right">&nbsp;4</td>
+            <td align="right">&nbsp;6</td>
+            <td align="right">&nbsp;4</td>
+            <td align="right">&nbsp;1</td>
+            <td align="right">&nbsp;</td>
+            <td align="right">&nbsp;&nbsp;</td>
+        </tr>
+        <tr>
+            <td align="right">&nbsp;1</td>
+            <td align="right">&nbsp;5</td>
+            <td align="right">10</td>
+            <td align="right">10</td>
+            <td align="right">&nbsp;5</td>
+            <td align="right">&nbsp;1</td>
+            <td align="right">&nbsp;&nbsp;</td>
+        </tr>
+        <tr>
+            <td align="right">&nbsp;1</td>
+            <td align="right">&nbsp;6</td>
+            <td align="right">15</td>
+            <td align="right">20</td>
+            <td align="right">15</td>
+            <td align="right">&nbsp;6</td>
+            <td align="right">&nbsp;1</td>
+        </tr>
+    </table>
 
 ## Funções
 1. Crie uma função que receba duas palavras e retorne _True_ caso a primeira palavra seja um prefixo da segunda.
